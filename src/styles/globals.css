@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+.gradientbg {
+
+    background: linear-gradient(90deg, rgba(188.03, 0, 255,   0.24) 0%, rgba(77.27, 0, 255, 0.24) 50%, rgba(0, 56.67, 255, 0.24) 100%)
+
+}
+
+.textgradient{
+    background: linear-gradient(90deg, #D35DFD 0.01%, #9263FF 50.01%, #6A8BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+}
