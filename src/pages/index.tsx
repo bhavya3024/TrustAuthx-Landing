@@ -2,14 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function Footer() {
   return (
-    <div className="flex h-full min-h-screen flex-col items-center justify-center py-12 ">
+    <div className="flex min-h-screen  flex-col items-center justify-center py-12 ">
       <PricingPart />
 
       <SubscribePart />
 
-      <Footer />
+      <CopyrightInfo />
     </div>
   );
 }
@@ -169,7 +169,7 @@ function SubscribePart() {
   );
 }
 
-function Footer() {
+export function CopyrightInfo() {
   return (
     <div className="Group12456 mt-10 flex flex-wrap gap-20 lg:gap-60">
       <div className="flex w-full flex-col items-center justify-center gap-7   lg:w-auto lg:items-start lg:justify-normal">

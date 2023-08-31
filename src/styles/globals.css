@@ -10,10 +10,35 @@
 
 }
 
+.ud-primary-btn {
+    padding: 15px 25px;
+    color: black;
+    border: 1px solid black;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.ud-row{
+    justify-content: space-between;
+}
+
+
+
+.ud-secondary-btn {
+    padding: 15px 25px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 .textgradient{
     background: linear-gradient(90deg, #D35DFD 0.01%, #9263FF 50.01%, #6A8BFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   
 }
+
+
+
 }
