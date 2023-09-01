@@ -4,6 +4,12 @@
 
 
 @layer utilities {
+    .showcase-1 {
+        background: linear-gradient(82deg, #09f 0%, #9eff00 100%);
+
+    }
+
+
 .gradientbg {
 
     background: linear-gradient(90deg, rgba(188.03, 0, 255,   0.24) 0%, rgba(77.27, 0, 255, 0.24) 50%, rgba(0, 56.67, 255, 0.24) 100%)
@@ -14,6 +20,19 @@ button:active{
     scale: 0.95;
 }
 
+.showcase-1-btn{
+    background: linear-gradient(270deg, #FF4FE3 0%, #000 100%);
+}
+
+.showcase-1-gradient-bottom{
+background: linear-gradient(180deg, rgba(67, 179, 254, 0.00) 0%, #20A6FF 100%);
+ width: calc(100% + 82px);
+
+}
+
+
+
+
 .ud-primary-btn {
     padding: 15px 25px;
     color: black;
@@ -21,6 +40,8 @@ button:active{
     margin-right: 30px;
     border-radius: 5px;
 }
+
+
 
 .gradient-text-ai {
     background: linear-gradient(114deg, #9EFF00 26.62%, rgba(38, 180, 225, 0.85) 42.39%, rgba(174, 117, 219, 0.80) 61.26%, #FF9228 76.25%);
