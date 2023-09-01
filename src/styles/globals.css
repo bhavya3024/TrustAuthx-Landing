@@ -10,12 +10,23 @@
 
 }
 
+button:active{
+    scale: 0.95;
+}
+
 .ud-primary-btn {
     padding: 15px 25px;
     color: black;
     border: 1px solid black;
     margin-right: 30px;
     border-radius: 5px;
+}
+
+.gradient-text-ai {
+    background: linear-gradient(114deg, #9EFF00 26.62%, rgba(38, 180, 225, 0.85) 42.39%, rgba(174, 117, 219, 0.80) 61.26%, #FF9228 76.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .ud-row{
