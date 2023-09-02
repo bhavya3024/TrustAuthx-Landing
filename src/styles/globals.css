@@ -20,6 +20,11 @@ button:active{
     scale: 0.95;
 }
 
+.showcase-2 {
+    background: radial-gradient(70.71% 70.71% at 50% 50%, #C499E6 0%, rgba(255, 255, 255, 0.40) 100%);
+    box-shadow: 0px 10px 50px -2.5px rgba(0, 0, 0, 0.10), 0px 2.28853px 11.4427px -1.66667px rgba(0, 0, 0, 0.10), 0px 0.60219px 3.01094px -0.83333px rgba(0, 0, 0, 0.10);
+}
+
 .showcase-1-btn{
     background: linear-gradient(270deg, #FF4FE3 0%, #000 100%);
 }
@@ -29,6 +34,22 @@ background: linear-gradient(180deg, rgba(67, 179, 254, 0.00) 0%, #20A6FF 100%);
  width: calc(100% + 82px);
 
 }
+
+.showcase-3-width {
+ width: calc(100% + 82px);
+
+}
+
+.showcase-3 {
+background: linear-gradient(233deg, #FAFFC6 -19.83%, #E00 84.46%);
+box-shadow: 0px 10px 50px -2.5px rgba(0, 0, 0, 0.10), 0px 2.28853px 11.4427px -1.66667px rgba(0, 0, 0, 0.10), 0px 0.60219px 3.01094px -0.83333px rgba(0, 0, 0, 0.10);
+}
+
+.showcase-percentage-first-gradient {
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.20) 100%);
+}
+
+
 
 
 
