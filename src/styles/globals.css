@@ -119,6 +119,14 @@
       0px 0.60219px 3.01094px -0.83333px rgba(0, 0, 0, 0.1);
   }
 
+  .timeline-radial-gradient {
+    background: radial-gradient(
+      71.86% 133.6% at 131.45% 64.97%,
+      #4f4848 0%,
+      #000 86.35%
+    );
+  }
+
   .showcase-6-shadow {
     box-shadow:
       0px 10px 50px -3.75px rgba(0, 0, 0, 0.01),
