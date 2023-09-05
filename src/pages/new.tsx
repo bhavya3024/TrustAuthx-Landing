@@ -1,6 +1,6 @@
-import Image from "next/image";
 import React from "react";
 import Footer from ".";
+import AnimatedGradient from "~/pages/components/Gradients/AnimatedGradient";
 
 function New() {
   return (
@@ -194,10 +194,10 @@ function AbsolutePart() {
 
 function CanvasPart() {
   return (
-    <div className="-z-20    min-h-screen w-[97vw] rounded-3xl bg-black py-12   text-gray-200 lg:rounded-[90px]">
-      <div className="  flex flex-col items-center  px-4 ">
-        <div className="flex max-h-[738px] w-full  max-w-[1240px] flex-col gap-14  rounded-3xl  px-4">
-          <div className="   text-4xl font-semibold  ">
+    <div className="-z-20 w-[97vw] rounded-3xl bg-black py-24   text-gray-200 lg:rounded-[90px]">
+      <div className="flex flex-col  items-center px-4">
+        <div className="ml-36 flex max-h-[738px]  w-full max-w-[1240px] flex-col  flex-wrap gap-14  rounded-3xl px-4">
+          <div className=" text-4xl font-semibold">
             TrustAuthx is the world’s most Easiest and
             <br />
             completely Managed Auth platform
@@ -215,17 +215,13 @@ function CanvasPart() {
         </div>
       </div>
 
-      <div className="relative ">
+      <div className="relative">
         <div className="flex items-center justify-center px-4">
-          <div className=" relative  z-10 mt-6  h-full max-h-[738px] w-full max-w-[1240px]  rounded-3xl  border border-white border-opacity-25 bg-white bg-opacity-5 p-12 shadow-inner">
+          <div className=" relative  z-10 mt-6  h-full max-h-[738px] w-2/3 rounded-3xl  border border-white border-opacity-25 bg-white bg-opacity-5 p-12 shadow-inner">
             <img src="/page3.png" alt="imagetrustauthx" className="bg-cover" />
           </div>
         </div>
-
-        <img
-          src="./gradientbg.png "
-          className="absolute top-1/2  w-screen -translate-y-1/2 bg-no-repeat"
-        />
+        <AnimatedGradient />
       </div>
     </div>
   );
