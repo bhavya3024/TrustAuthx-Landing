@@ -11,7 +11,6 @@ import { Beam } from "./Beam/Beam";
 import { Rainbow } from "./Rainbow";
 import { Prism } from "./Prism";
 import { Flare } from "./Flare";
-import { Box } from "./Box";
 
 export function lerp(object, prop, goal, speed = 0.1) {
   object[prop] = THREE.MathUtils.lerp(object[prop], goal, speed);
@@ -151,8 +150,6 @@ function Scene() {
           onRayOut={rayOut}
           onRayMove={rayMove}
         />
-        <Box position={[-1.4, 1, 0]} rotation={[0, 0, Math.PI / 8]} />
-        <Box position={[-2.4, -1, 0]} rotation={[0, 0, Math.PI / -4]} />
       </Beam>
       {/* Rainbow and flares */}
       <Rainbow ref={rainbow} startRadius={0} endRadius={0.5} fade={0} />
