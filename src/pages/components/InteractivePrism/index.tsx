@@ -30,14 +30,14 @@ export function calculateRefractionAngle(
   return theta;
 }
 
-export default function App() {
+export default function InteractivePrism({ bgColor }: { bgColor: string }) {
   return (
     <Canvas
       orthographic
       gl={{ antialias: false }}
-      camera={{ position: [0, 0, 100], zoom: 50 }}
+      camera={{ position: [0, 0, 20], zoom: 50 }}
     >
-      <color attach="background" args={["black"]} />
+      <color attach="background" args={[bgColor]} />
       <Scene />
       <EffectComposer disableNormalPass>
         <Bloom
