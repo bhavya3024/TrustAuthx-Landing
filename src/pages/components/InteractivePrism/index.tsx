@@ -30,25 +30,35 @@ export function calculateRefractionAngle(
   return theta;
 }
 
-export default function InteractivePrism({ bgColor }: { bgColor: string }) {
+export default function InteractivePrism({
+  bgColor,
+  height,
+  width = "100%",
+}: {
+  bgColor: string;
+  height: string;
+  width?: string;
+}) {
   return (
-    <Canvas
-      orthographic
-      gl={{ antialias: false }}
-      camera={{ position: [0, 0, 20], zoom: 50 }}
-    >
-      <color attach="background" args={[bgColor]} />
-      <Scene />
-      <EffectComposer disableNormalPass>
-        <Bloom
-          mipmapBlur
-          levels={9}
-          intensity={1.5}
-          luminanceThreshold={1}
-          luminanceSmoothing={1}
-        />
-      </EffectComposer>
-    </Canvas>
+    <div id="hero-prism" style={{ width, height }}>
+      <Canvas
+        orthographic
+        gl={{ antialias: false }}
+        camera={{ position: [0, 0, 20], zoom: 50 }}
+      >
+        <color attach="background" args={[bgColor]} />
+        <Scene />
+        <EffectComposer disableNormalPass>
+          <Bloom
+            mipmapBlur
+            levels={9}
+            intensity={1.5}
+            luminanceThreshold={1}
+            luminanceSmoothing={1}
+          />
+        </EffectComposer>
+      </Canvas>
+    </div>
   );
 }
 
