@@ -48,11 +48,11 @@ function timeline() {
             </div>
           </div>
 
-          <div className="ml-10 flex justify-between">
+          <div className="ml-10 flex flex-1 justify-between">
             <div className="mt-[450px] flex flex-col gap-[550px]">
               <Information
                 preHeader="Trim Costs, Boost Efficiency"
-                footerLink=""
+                buttonLink=""
                 header="Save Time and Money with TrustAuthx 
                 Auth-Lite"
                 ButtonText="Let’s Get Started It’s Free"
@@ -71,7 +71,7 @@ function timeline() {
 
               <Information
                 preHeader="Trim Costs, Boost Efficiency"
-                footerLink=""
+                buttonLink=""
                 header="Save Time and Money with TrustAuthx 
                 Auth-Lite"
                 ButtonText="Let’s Get Started It’s Free"
@@ -137,7 +137,7 @@ function timeline() {
       </div>
 
       <div className="timeline-radial-gradient flex">
-        <div className=" flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
           <div className="relative -my-24">
             <img src="/timeline/glow.svg" className=" " alt="" />
 
@@ -157,6 +157,92 @@ function timeline() {
           <img src="/timeline/2.svg" alt="" />
           <img src="/timeline/1-icon.svg" alt="" />
           <img src="/timeline/1.svg" alt="" />
+        </div>
+
+        <div className="ml-10 flex flex-1 justify-between pr-24">
+          <div className="mt-[450px] flex flex-col gap-[550px]">
+            <Information
+              preHeader="Trim Costs, Boost Efficiency"
+              buttonLink=""
+              header="Save Time and Money with TrustAuthx 
+                Auth-Lite"
+              ButtonText="Let’s Get Started It’s Free"
+            >
+              <div
+                className=" mt-20 max-w-[600px] text-xl font-bold leading-7 text-neutral-600
+"
+              >
+                TrustAuthx not only simplifies your user, token and session
+                management but also trims your expenses significantly. Say
+                goodbye to costly alternatives that can set you back. With
+                AuthLite, you'll save valuable time and also enjoy over 65% in
+                savings. It's a win-win for your efficiency and your budget.
+              </div>
+            </Information>
+
+            <Information
+              preHeader="Trim Costs, Boost Efficiency"
+              buttonLink=""
+              header="Save Time and Money with TrustAuthx 
+                Auth-Lite"
+              ButtonText="Let’s Get Started It’s Free"
+            >
+              <div
+                className=" mt-20 max-w-[600px] text-xl font-bold leading-7 text-neutral-600
+"
+              >
+                TrustAuthx not only simplifies your user, token and session
+                management but also trims your expenses significantly. Say
+                goodbye to costly alternatives that can set you back. With
+                AuthLite, you'll save valuable time and also enjoy over 65% in
+                savings. It's a win-win for your efficiency and your budget.
+              </div>
+            </Information>
+          </div>
+
+          <div className=" mt-44 flex flex-col gap-[300px] ">
+            <TimelineCard
+              footerButtonText="See Pricing"
+              header={"Reduce Auth Development Time &"}
+              footerLink={""}
+              footerText="TrustAuthx Auth-lite offers 
+              a fully managed, user-friendly solutionfor system security,
+               saving you over 90% compared to similar systems that typically cost
+                around $500/month."
+            >
+              <div
+                className="mt-2 bg-gradient-to-r from-white to-black  bg-clip-text
+               text-center text-4xl font-bold  text-transparent"
+              >
+                Save Cost up-to
+              </div>
+
+              <div className="mt-7 flex items-center justify-center gap-16 ">
+                <PercentageSVG>90%</PercentageSVG>
+                <PercentageSVGSecondTimeline>65%</PercentageSVGSecondTimeline>
+              </div>
+            </TimelineCard>
+
+            <TimelineCard
+              footerButtonText="See Log-on"
+              header={
+                "Auth-Lite Log-on can give conversion by mitigating account Creation process "
+              }
+              footerLink={""}
+              footerText="According to a study by HubSpot, 38% of people will abandon a form if they have to create an account."
+            >
+              <div className=" flex items-center">
+                <div
+                  className="
+               mr-1 text-center text-5xl font-bold text-white  "
+                >
+                  Up by :)
+                </div>
+
+                <PercentageSVGThird>138%</PercentageSVGThird>
+              </div>
+            </TimelineCard>
+          </div>
         </div>
       </div>
 

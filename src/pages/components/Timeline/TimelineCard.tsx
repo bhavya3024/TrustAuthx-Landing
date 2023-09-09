@@ -14,7 +14,7 @@ export function TimelineCard({
   footerButtonText: string;
 }) {
   return (
-    <div className="rounded-2xl bg-black">
+    <div className="shad rounded-2xl bg-black shadow-lg shadow-zinc-800 ">
       <div className=" px-16 py-12 ">
         <div className="  w-96 text-center">
           <span className="bg-gradient-to-r  from-yellow-400 to-orange-500 bg-clip-text text-4xl font-bold leading-10 text-transparent">

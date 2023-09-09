@@ -4,25 +4,27 @@ export function Information({
   preHeader,
   header,
   children,
-  footerLink,
+  buttonLink,
+  whiteText,
   ButtonText,
 }: {
   preHeader: string;
   header: string;
   children: React.ReactNode;
-  footerLink: string;
+  whiteText?: boolean;
+  buttonLink: string;
   ButtonText: string;
 }) {
   return (
-    <div className="flex flex-col  ">
+    <div
+      className={`flex flex-col ${whiteText ? "text-white" : "text-zinc-900"} `}
+    >
       <div className="flex flex-col gap-3">
-        <div className=" text-3xl font-bold leading-9 text-zinc-900">
-          {preHeader}{" "}
-        </div>
+        <div className=" text-3xl font-bold leading-9 ">{preHeader} </div>
 
         <div
           className="  max-w-[500px] text-5xl font-bold
- text-zinc-900"
+ "
         >
           {header}
         </div>
