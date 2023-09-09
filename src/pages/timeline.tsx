@@ -13,7 +13,7 @@ import Carousel from "./components/Timeline/CarouselSlider";
 function timeline() {
   return (
     <>
-      <div className="flex">
+      <div className="flex px-40">
         <div className="flex flex-col items-center justify-center">
           <img src="/timeline/first.svg" alt="" />
 
@@ -139,7 +139,7 @@ function timeline() {
         </div>
       </div>
 
-      <div className="timeline-radial-gradient flex">
+      <div className="timeline-radial-gradient flex px-40">
         <div className="flex flex-col items-center justify-center">
           <div className="relative -my-24">
             <img src="/timeline/glow.svg" className=" " alt="" />
@@ -291,7 +291,7 @@ High-Performing Caching Infrastructure"
         </div>
       </div>
 
-      <div className="flex ">
+      <div className="flex px-40">
         <div className="flex flex-col items-center justify-center">
           <img src="/timeline/last-icon.svg" alt="" />
           <img src="/timeline/last.svg" />
