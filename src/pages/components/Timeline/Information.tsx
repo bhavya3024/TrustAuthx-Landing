@@ -7,7 +7,9 @@ export function Information({
   buttonLink,
   whiteText,
   ButtonText,
+  buttonbg,
 }: {
+  buttonbg: boolean;
   preHeader: string;
   header: string;
   children: React.ReactNode;
@@ -33,8 +35,9 @@ export function Information({
       {children}
 
       <button
-        className="mt-6 flex w-64 items-center 
-            justify-center gap-2 rounded-full bg-black  py-2  font-bold text-white"
+        className={`${
+          buttonbg ? "bg-white text-black" : "bg-black text-white"
+        } mt-6 flex w-64 items-center justify-center gap-2 rounded-full py-2 font-bold `}
       >
         {ButtonText}
         <ArrowIcon />
