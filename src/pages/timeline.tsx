@@ -360,7 +360,7 @@ High-Performing Caching Infrastructure"
               ]}
             </Carousel>
 
-            <div className=" flex flex-col gap-16">
+            <div className=" flex flex-col  gap-16">
               <div className="  text-2xl font-bold leading-snug text-black">
                 Make your PlanetScale data accessible across your
                 <br />
