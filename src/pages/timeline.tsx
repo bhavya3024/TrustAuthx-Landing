@@ -10,7 +10,7 @@ import { TimelineCard } from "./components/Timeline/TimelineCard";
 import { Information } from "./components/Timeline/Information";
 import Carousel from "./components/Timeline/CarouselSlider";
 
-function timeline() {
+function Timeline() {
   return (
     <>
       <div className="flex px-12 py-12 2xl:py-0 2xl:pl-44 2xl:pr-[130px]">
@@ -565,4 +565,4 @@ function GradientCardSvg({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default timeline;
+export default Timeline;

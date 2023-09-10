@@ -55,7 +55,7 @@ function New() {
                 />
 
                 <div>
-                  <p className="text-lg">Omar Farook</p>
+                <p className="text-lg">Omar Farook</p>
                   <p className="text-lg text-[#555]">@BuildWithOmar</p>
                 </div>
               </div>
@@ -192,9 +192,9 @@ function AbsolutePart() {
   );
 }
 
-function CanvasPart() {
+export const CanvasPart = () => {
   return (
-    <div className="-z-20 w-[97vw] rounded-3xl bg-black py-24   text-gray-200 lg:rounded-[90px]">
+    <div className="-z-20 w-[97vw] m-auto mt-5 rounded-3xl bg-black py-24   text-gray-200 lg:rounded-[90px]">
       <div className="flex flex-col  items-center px-4">
         <div className="ml-36 flex max-h-[738px]  w-full max-w-[1240px] flex-col  flex-wrap gap-14  rounded-3xl px-4">
           <div className=" text-4xl font-semibold">

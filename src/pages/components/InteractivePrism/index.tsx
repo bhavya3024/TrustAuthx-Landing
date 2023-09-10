@@ -5,7 +5,7 @@
 
 import * as THREE from "three";
 import { useRef, useCallback, useState } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas, useFrame, extend } from "@react-three/fiber";
 import { Bloom, EffectComposer } from "@react-three/postprocessing";
 import { Beam } from "./Beam/Beam";
 import { Rainbow } from "./Rainbow";
