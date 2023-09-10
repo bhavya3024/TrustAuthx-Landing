@@ -14,7 +14,7 @@ export default function Document() {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-BBZJRC7ER3');
+                gtag('config', 'G-7NXTY5KCKL');
               `,
           }}
         />
