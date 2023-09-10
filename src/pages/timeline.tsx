@@ -13,7 +13,7 @@ import Carousel from "./components/Timeline/CarouselSlider";
 function timeline() {
   return (
     <>
-      <div className="flex pl-44 pr-[130px]">
+      <div className="flex px-12 py-12 2xl:py-0 2xl:pl-44 2xl:pr-[130px]">
         <div className="flex max-w-[160px] flex-col items-center justify-center">
           <img src="/timeline/first.svg" alt="" />
 
@@ -30,26 +30,26 @@ function timeline() {
           <img src="/timeline/6.svg" alt="" />
         </div>
 
-        <div className="mt-[750px]">
+        <div className="mt-[750px] flex-1">
           <div className=" flex flex-col gap-9">
             <div className="text-4xl font-bold  text-black">Overview</div>
 
             <div className=" px-6">
               <span className="text-6xl font-bold  text-indigo-400">
                 Embed security into the developer workflow.
-                <br />
+                <br className="hidden 2xl:flex" />
               </span>
               <span className="text-6xl font-bold  text-black">
                 With GitHub, developers can secure their
-                <br />
+                <br className="hidden 2xl:flex" />
                 code in minutes and organizations can
-                <br />
+                <br className="hidden 2xl:flex" />
                 automatically comply with regulations.
               </span>
             </div>
           </div>
 
-          <div className="ml-10 flex  flex-1 justify-between ">
+          <div className="flex w-full flex-1 flex-col items-center justify-between  xl:flex-row 2xl:ml-10 ">
             <div className="mt-[390px] flex flex-col gap-[550px]">
               <Information
                 preHeader="Trim Costs, Boost Efficiency"
@@ -161,7 +161,7 @@ function timeline() {
         </div>
       </div>
 
-      <div className="timeline-radial-gradient flex pl-44 pr-[130px]">
+      <div className="timeline-radial-gradient flex flex-1 px-12 py-12 2xl:py-0 2xl:pl-44 2xl:pr-[130px]">
         <div className="flex max-w-[160px] flex-col items-center justify-center">
           <div className="relative ">
             <img src="/timeline/glow.svg" className=" " alt="" />
@@ -193,11 +193,11 @@ function timeline() {
             </span>
             <span className="text-6xl font-bold  text-white">
               Enable real-time inference
-              <br />
+              <br className="hidden 2xl:flex" />
               on extensive telemetry data, including raw
-              <br />
+              <br className="hidden 2xl:flex" />
               packets, to swiftly detect & respond to live
-              <br />
+              <br className="hidden 2xl:flex" />
               threats.
             </span>
 
@@ -210,8 +210,8 @@ function timeline() {
 
           {/* placing next to each other */}
 
-          <div className="ml-10 flex  flex-1 justify-between ">
-            <div className="mt-[325px] flex flex-col justify-between ">
+          <div className=" flex  flex-1 flex-col items-center justify-between xl:flex-row 2xl:ml-10 ">
+            <div className="mt-[325px] flex flex-col justify-between gap-[550px] 2xl:gap-0">
               <Information
                 whiteText
                 preHeader="Maximize Speed"
@@ -363,28 +363,28 @@ function timeline() {
         </div>
       </div>
 
-      <div className="flex pl-44 pr-[130px]">
+      <div className="flex px-12 2xl:pl-44 2xl:pr-[130px]">
         <div className="flex max-w-[160px] flex-col items-center ">
           <img src="/timeline/last-icon.svg" alt="" />
           <img src="/timeline/last.svg" />
         </div>
 
-        <div className=" mt-40 flex flex-col gap-9">
+        <div className=" mt-40 flex flex-1 flex-col gap-9">
           <div className="text-4xl font-bold  text-black">
             Checkout What They Say?{" "}
           </div>
 
           <div className="px-6">
-            <span className="whitespace-nowrap text-[68px] font-bold leading-[75.344px]  tracking-[-2px]  text-indigo-400">
+            <span className="text-[68px] font-bold leading-[75.344px] tracking-[-2px]  text-indigo-400  2xl:whitespace-nowrap">
               Embed security into the developer workflow.
-              <br />
+              <br className="hidden 2xl:flex" />
             </span>
             <span className="text-[68px] font-bold leading-[75.344px]  tracking-[-2px]  text-black">
               With GitHub, developers can secure.
             </span>
           </div>
 
-          <div className="mt-28 flex items-center justify-between  gap-4 px-6 pb-6 ">
+          <div className="mt-28 flex flex-col  items-center  justify-between gap-14 px-6  pb-6 xl:flex-row 2xl:gap-6">
             <Carousel>
               {[
                 <GradientCard
