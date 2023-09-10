@@ -299,6 +299,66 @@ function timeline() {
             </div>
 
             {/* next part */}
+            <div className=" mt-44 flex flex-col gap-[300px] ">
+              <TimelineCard
+                footerButtonText="See Pricing"
+                header={"Reduce Auth Development Time &"}
+                footerLink={""}
+                footerText="TrustAuthx Auth-lite offers 
+              a fully managed, user-friendly solutionfor system security,
+               saving you over 90% compared to similar systems that typically cost
+                around $500/month."
+              >
+                <div
+                  className="mt-2 bg-gradient-to-r from-white to-black  bg-clip-text
+               text-center text-4xl font-bold  text-transparent"
+                >
+                  Save Cost up-to
+                </div>
+
+                <div className="mt-7 flex items-center justify-center gap-16 ">
+                  <PercentageSVG>90%</PercentageSVG>
+                  <PercentageSVGSecondTimeline>65%</PercentageSVGSecondTimeline>
+                </div>
+              </TimelineCard>
+
+              <div className="  flex flex-col items-center justify-center gap-12 rounded-2xl bg-black  shadow-lg shadow-zinc-800 ">
+                <div className="max-w-[490px] py-12   ">
+                  <div className="   text-center">
+                    <span className="bg-gradient-to-r  from-yellow-400 to-orange-500 bg-clip-text text-4xl font-bold leading-10 text-transparent">
+                      Get Speed & Supercharge your App with high-performing
+                      Caching Servers
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex flex-col gap-3 pb-6">
+                  <img src="/timeline/speedCard/1.svg" alt="" />
+                  <img src="/timeline/speedCard/2.svg" alt="" />
+                  <img src="/timeline/speedCard/3.svg" alt="" />
+                  <img src="/timeline/speedCard/4.svg" alt="" />
+                </div>
+              </div>
+
+              <div className="shad rounded-2xl bg-black shadow-lg shadow-zinc-800 ">
+                <img src="/timeline/lastcard.svg" className="" alt="" />
+
+                <div className=" rounded-b-2xl bg-[#1A1A1A] px-12 py-7">
+                  <div className=" w-96 text-lg font-bold leading-loose text-neutral-50">
+                    Say goodbye to Multiple validation of same user. Our managed
+                    infra. helps to save large amount of validation resource
+                    using a CDW.
+                  </div>
+
+                  <button
+                    className="mt-6 flex items-center justify-center 
+            gap-2 rounded-full border-white  py-1 font-bold text-white"
+                  >
+                    Data Wrenching <ArrowIcon />
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
