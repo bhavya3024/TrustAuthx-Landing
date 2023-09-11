@@ -320,10 +320,10 @@ function GradientAISvg() {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(31.014 30.4605) rotate(-139.507) scale(41.0918)"
           >
-            <stop stop-color="#9EFF00" />
-            <stop offset="0.319445" stop-color="#26B4E1" stop-opacity="0.85" />
-            <stop offset="0.621528" stop-color="#AE75DB" stop-opacity="0.91" />
-            <stop offset="0.939236" stop-color="#FF9228" />
+            <stop stopColor="#9EFF00" />
+            <stop offset="0.319445" stopColor="#26B4E1" stop-opacity="0.85" />
+            <stop offset="0.621528" stopColor="#AE75DB" stop-opacity="0.91" />
+            <stop offset="0.939236" stopColor="#FF9228" />
           </radialGradient>
         </defs>
       </svg>
@@ -347,10 +347,10 @@ function GradientAISvg() {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(86.8488 50.2431) rotate(-178.182) scale(90.4831)"
           >
-            <stop stop-color="#9EFF00" />
-            <stop offset="0.319445" stop-color="#26B4E1" stop-opacity="0.85" />
-            <stop offset="0.621528" stop-color="#AE75DB" stop-opacity="0.91" />
-            <stop offset="0.939236" stop-color="#FF9228" />
+            <stop stopColor="#9EFF00" />
+            <stop offset="0.319445" stopColor="#26B4E1" stop-opacity="0.85" />
+            <stop offset="0.621528" stopColor="#AE75DB" stop-opacity="0.91" />
+            <stop offset="0.939236" stopColor="#FF9228" />
           </radialGradient>
         </defs>
       </svg>
