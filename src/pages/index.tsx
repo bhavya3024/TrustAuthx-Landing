@@ -1,8 +1,24 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import InteractivePrism from "./components/InteractivePrism/index";
+import { CanvasPart } from  './new';
+import Timeline from "./timeline";
+import { TextPrism } from "./components/InteractivePrism/Text";
 
-export default function Footer() {
+export default function LandingPageCompoent() {
+  return (
+    <>
+    <InteractivePrism bgColor='black' height="1400px"/>
+    <CanvasPart />
+    <Timeline />
+    <Footer />
+    </>
+  )
+}  
+
+
+function Footer() {
   return (
     <div className="flex min-h-screen  flex-col items-center justify-center py-12 ">
       <PricingPart />
