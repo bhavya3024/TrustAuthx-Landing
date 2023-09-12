@@ -539,8 +539,8 @@ function GradientCardSvg({ children }: { children: React.ReactNode }) {
         <path
           d="M69.709 35.3555C69.709 27.3471 66.8503 19.6017 61.6474 13.5135C56.4446 7.42539 49.2394 3.39443 41.3288 2.14627C33.4182 0.89811 25.3219 2.51473 18.4972 6.70512C11.6726 10.8955 6.56791 17.3844 4.10209 25.0038C1.63627 32.6232 1.97128 40.8725 5.04681 48.2668C8.12235 55.6612 13.7364 61.7148 20.8783 65.338C28.0203 68.9612 36.221 69.916 44.0044 68.0305C51.7877 66.145 58.6423 61.5431 63.3344 55.0531"
           stroke="url(#paint0_radial_542_8816)"
-          stroke-width="2.97523"
-          stroke-linecap="round"
+          strokeWidth="2.97523"
+          strokeLinecap="round"
         />
         <defs>
           <radialGradient
@@ -551,9 +551,9 @@ function GradientCardSvg({ children }: { children: React.ReactNode }) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(64.9061 55.6585) rotate(-147.529) scale(74.0076 74.0074)"
           >
-            <stop stop-color="#AD00FF" />
-            <stop offset="0.754348" stop-color="#FFF500" />
-            <stop offset="0.961618" stop-color="white" />
+            <stop stopColor="#AD00FF" />
+            <stop offset="0.754348" stopColor="#FFF500" />
+            <stop offset="0.961618" stopColor="white" />
           </radialGradient>
         </defs>
       </svg>

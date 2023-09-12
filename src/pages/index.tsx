@@ -4,18 +4,87 @@ import Link from "next/link";
 import InteractivePrism from "./components/InteractivePrism/index";
 import { CanvasPart } from  './new';
 import Timeline from "./timeline";
-import { TextPrism } from "./components/InteractivePrism/Text";
+import { TrustAuthXLogo } from "../svgs/TrustAuthXLogo";
+import { Vector } from "../svgs/Vector";
+import { VectorRight } from "../svgs/VectorRight";
+import { GithubLogo } from "../svgs/Github";
+import { TrustAuthXText } from "../svgs/TrustAuthXText";
+
+
 
 export default function LandingPageCompoent() {
   return (
     <>
+    <Menu />
     <InteractivePrism bgColor='black' height="1400px"/>
+    <TrustAuthXText />
     <CanvasPart />
     <Timeline />
     <Footer />
     </>
   )
 }  
+
+
+function Menu() {
+
+  return (
+    <div className="border-0.5 border-[#DFDFDF] bg-opacity-1 w-full text-[#DFDFDF] h-20 px-14 py-5 bg-black bg-opacity-0 border border-white backdrop-blur-sm justify-center items-start inline-flex absolute top-0 left-0 z-10">
+  <div className="h-12 px-14 justify-between items-center gap-96 flex">
+    <div className="justify-start items-center gap-7 flex">
+      <div className="w-11 h-11 relative">
+        <TrustAuthXLogo />
+        <div className="w-6 h-8 left-[10.48px] top-[7.99px] absolute">
+        </div>
+      </div>
+      <div className="h-6 justify-center items-start gap-7 flex">
+        <div className="w-24 self-stretch justify-center items-center gap-1 inline-flex">
+          <div className="mix-blend-exclusion text-center text-base font-medium leading-normal">Products</div>
+          <div className="w-5 px-1.5 py-2 justify-start items-start inline-flex">
+          <Vector />
+          </div>
+        </div>
+        <div className="self-stretch justify-start items-start inline-flex">
+          <div className="mix-blend-exclusion text-base font-medium leading-normal">Customers</div>
+        </div>
+        <div className="self-stretch justify-start items-start inline-flex">
+          <div className="mix-blend-exclusion text-base font-medium leading-normal">Enterprise</div>
+        </div>
+        <div className="self-stretch justify-start items-start inline-flex">
+          <div className="mix-blend-exclusion text-base font-medium leading-normal">Pricing</div>
+        </div>
+        <div className="grow shrink basis-0 self-stretch justify-center items-center gap-1 inline-flex">
+          <div className="mix-blend-exclusion text-center text-base font-medium leading-normal">Resources</div>
+          <div className="w-5 px-1.5 py-2 justify-start items-start inline-flex" />
+        </div>
+        <div className="self-stretch justify-start items-start inline-flex">
+          <div className="justify-start items-start flex">
+            <div className="mix-blend-exclusion text-base font-medium leading-normal">Contact us</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="justify-center items-center gap-11 flex">
+      <div className="justify-start items-center gap-1.5 flex">
+        <GithubLogo />
+        <div className="mix-blend-exclusion text-base font-semibold leading-none">Github</div>
+      </div>
+      <div className="py-4 justify-start items-center flex">
+        <div className="mix-blend-exclusion text-base font-semibold leading-none">Docs</div>
+      </div>
+      <div className="py-4 justify-start items-center flex">
+        <div className="mix-blend-exclusion text-base font-semibold leading-none">Sign in</div>
+      </div>
+      <div className="px-5 py-2.5 bg-white rounded-full border border-neutral-800 justify-center items-center gap-1 flex">
+        <div className="mix-blend-exclusion text-center text-white text-base font-semibold leading-normal">Let’s Get Started</div>
+        <div className="w-5 h-5 pr-2 py-1.5 justify-start items-center gap-2 flex" />
+        <VectorRight />
+      </div>
+    </div>
+  </div>
+</div>
+  )
+}
 
 
 function Footer() {
