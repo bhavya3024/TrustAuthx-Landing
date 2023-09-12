@@ -74,10 +74,9 @@ function Timeline() {
               </Information>
 
               <Information
-                preHeader='TrustAuthx Log-"On"'
+                preHeader='TrustAuthx Log-On'
                 buttonLink=""
-                header='Drive faster Conversions with Auth-Lite "Log-On" 
-                yes "on"'
+                header='Drive faster Conversions with Auth-Lite Log-On'
                 customButton={
                   <div className="mt-14 flex gap-7">
                     <button className="mt-6 flex w-64 items-center justify-center gap-2 rounded-[18711.455px] border-[1.1px] border-[#DDD] bg-black py-2  font-bold text-white">
