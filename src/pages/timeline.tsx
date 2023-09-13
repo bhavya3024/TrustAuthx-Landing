@@ -382,13 +382,14 @@ function Timeline() {
               With GitHub, developers can secure.
             </span>
           </div>
-
+          
           <div className="mt-28 flex flex-col  items-center  justify-between gap-14 px-6  pb-6 xl:flex-row 2xl:gap-6">
             <Carousel>
               {[
                 <GradientCard
                   header="Absolute Blessing"
                   logo="/timeline/moonlightnexus.svg"
+                  key={Math.random()}
                   description="TrustAuthx Auth-lite offers a fully managed, user-friendly solution for system security, saving you over 90% compared to similar systems that typically cost around $500/month."
                   footer="Reduce Auth Development Time & Save Cost up-to : "
                   number="90"
@@ -396,6 +397,7 @@ function Timeline() {
                 <GradientCard
                   header="Absolute Blessing"
                   logo="/timeline/moonlightnexus.svg"
+                  key={Math.random()}
                   description="TrustAuthx Auth-lite offers a fully managed, user-friendly solution for system security, saving you over 90% compared to similar systems that typically cost around $500/month."
                   footer="Reduce Auth Development Time & Save Cost up-to : "
                   number="90"
@@ -403,6 +405,7 @@ function Timeline() {
                 <GradientCard
                   header="Absolute Blessing"
                   logo="/timeline/moonlightnexus.svg"
+                  key={Math.random()}
                   description="TrustAuthx Auth-lite offers a fully managed, user-friendly solution for system security, saving you over 90% compared to similar systems that typically cost around $500/month."
                   footer="Reduce Auth Development Time & Save Cost up-to : "
                   number="90"
@@ -410,6 +413,7 @@ function Timeline() {
                 <GradientCard
                   header="Absolute Blessing"
                   logo="/timeline/moonlightnexus.svg"
+                  key={Math.random()}
                   description="TrustAuthx Auth-lite offers a fully managed, user-friendly solution for system security, saving you over 90% compared to similar systems that typically cost around $500/month."
                   footer="Reduce Auth Development Time & Save Cost up-to : "
                   number="90"
@@ -417,6 +421,7 @@ function Timeline() {
                 <GradientCard
                   header="Absolute Blessing"
                   logo="/timeline/moonlightnexus.svg"
+                  key={Math.random()}
                   description="TrustAuthx Auth-lite offers a fully managed, user-friendly solution for system security, saving you over 90% compared to similar systems that typically cost around $500/month."
                   footer="Reduce Auth Development Time & Save Cost up-to : "
                   number="90"
@@ -424,6 +429,7 @@ function Timeline() {
                 <GradientCard
                   header="Absolute Blessing"
                   logo="/timeline/moonlightnexus.svg"
+                  key={Math.random()}
                   description="TrustAuthx Auth-lite offers a fully managed, user-friendly solution for system security, saving you over 90% compared to similar systems that typically cost around $500/month."
                   footer="Reduce Auth Development Time & Save Cost up-to : "
                   number="90"
